@@ -1,0 +1,50 @@
+.navbar {
+    align-self: center;
+    width: 100%;
+    margin: 0px;
+    padding-top: 0px;
+}
+.rightbar {
+    align-self: right;
+    align-content: right;
+    border-right: 0;
+    /*width: 30%;
+    /**margin: 0px;*/
+    padding-top: 0px;
+}
+.searchForm {
+    align-self: center;
+    padding-top: 20px;
+    margin-left: 40%;
+    width: 50%;
+}
+.logo {
+    margin: 0;
+    padding-top: 10px;
+    width:100px;
+    float: left;
+    clear: none; 
+}
+ .videobox {
+    align-self: left;
+   /** width: 50%;*/
+    margin: 10px;
+    padding-top: 10px;
+    width: 600px;
+    height: 315px;
+    frameborder: 1px;
+}
+.imgbox {
+   /**align-items:baseline;*/;
+   /** width: 50%;
+   align-self:vertical;*/
+   padding-top: 10px;
+   padding-right: 15%;
+   width: 300px;
+   height: 150px;
+   frameborder: 1px;
+   display: block;
+   margin-left:auto;
+   margin-right:10%
+   border-radius:50%
+}
