@@ -87,3 +87,16 @@ header{
     width: 50px;
     border-radius: 3px;
 }
+
+.mainContent{
+    {
+        margin: 10px auto;
+        width: 1250px;
+        padding: 10px;
+    }
+}
+.main {
+	width: 870px;
+	float: left;
+	margin-right: 10px;
+}
