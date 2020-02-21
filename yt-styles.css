@@ -1,18 +1,4 @@
-.navbar {
-    align-self: center;
-    box-align:baseline;
-    width: 100%;
-    margin: 0px;
-    padding-top: 0px;
-}
-.rightbar {
-    align-self: right;
-    align-content: right;
-    border-right: 0;
-    /*width: 30%;
-    /**margin: 0px;*/
-    padding-top: 0px;
-}
+
 .searchForm {
     margin: 10px 0 0 150px;
 }
@@ -20,41 +6,15 @@
     width: 100px;
     height: 45px;
 }
- .videobox {
-    align-self: left;
-   /** width: 50%;*/
-    margin-left: 40px;
-    margin: 40px;
-    padding-top: 10px;
-    width: 870px;
-    height: 400px;
-    frameborder: 1px;
-}
-.imgbox {
-   /**align-items:baseline;*/;
-   /** width: 50%;
-   align-self:vertical;*/
-   float: :right;
-   padding-top: 10px;
-   padding-right: 5px;
-   width: 180px;
-   height: 100px;
-   frameborder: 1px;
-   display: flex;
-}
 
 .rightimages{
-    float: right;
-    margin: 13px 0 0px 190px;
+        float: right;
+        margin: 13px 0 0px 190px;
 }
-.righthumbs{
-    float: right;
-}  
 
-.logobar{
+.logobar {
     margin-left: 40px;
 }
-
 
 .searchinput{
     width: 560px;
@@ -88,15 +48,9 @@ header{
     border-radius: 3px;
 }
 
-.mainContent{
-    {
-        margin: 10px auto;
-        width: 1250px;
-        padding: 10px;
+
+header{
+        display: flex;
+        background-color: #ffffff;
+        padding: 5px;
     }
-}
-.main {
-	width: 870px;
-	float: left;
-	margin-right: 10px;
-}
