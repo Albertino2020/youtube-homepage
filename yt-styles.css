@@ -1,56 +1,65 @@
 
-.searchForm {
-    margin: 10px 0 0 150px;
+nav {
+    border-left: 40px;
+    padding:10px;
+    display: list-item;
 }
+
 .logo {
     width: 100px;
     height: 45px;
-}
-
-.rightimages{
-        float: right;
-        margin: 13px 0 0px 190px;
-}
-
-.logobar {
-    margin-left: 40px;
+    float:left;
 }
 
 .searchinput{
     width: 560px;
     padding: 5px;
+    margin-left: 10px;
+    float: left;
 
 }
 .searchButton{
-    margin-left: -4px;
-    width: 50px;
+    margin-left: 0px;
+    width: 70px;
     padding: 5px;
+    float: left;
   
 }
 
-header{
-    display:flex;
-    background-color: #FFFFFF; 
-    padding: 5px;
-}
-
-}
-.righticons{
-    margin-left: 10px;
-}
-.signin{
-    margin-left: 10px; 
+.signin {
+    margin-right: 10px;
     background-color: blue;
     color: #EEEEEE;
-    padding : 4px;
+    padding: 5px;
     border: none;
-    width: 50px;
-    border-radius: 3px;
+    width: 70px;
+    float: inline-end;
+    border-radius: 3px;        
+    }
+
+    .rightIcons{
+    margin-right: 10px;
+    background-color: blue;
+    color: #EEEEEE;
+    padding: 5px;
+    border: none;
+    width: 70px;
+    float:inline-start;
+}
+.rightnav{
+    align-items: baseline;
+    float: right;
+
 }
 
+.nav2{
+    background-color: blue;
+    color: #EEEEEE;
+    align-items: baseline;
+    padding: 1px;
+    margin-top: 40px;
+}
 
-header{
-        display: flex;
-        background-color: #ffffff;
-        padding: 5px;
-    }
+div{
+    display:table-row;
+}
