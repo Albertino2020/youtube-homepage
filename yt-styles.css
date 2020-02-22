@@ -98,3 +98,25 @@
  background-color: transparent;
  border-color: rgb(22, 122, 198);
 }
+
+.videobar{
+    border-width: medium;
+    color: black;
+    width: 100%;
+    font-size: 12pt;
+    text-align: justify;
+    background-color: black;
+    border-color: rgb(22, 122, 198);
+    float: left;
+   }
+
+   .sidebar{
+    border-width: medium;
+    color: green;
+    width: 100%;
+    font-size: 12pt;
+    text-align: justify;
+    background-color: green;
+    border-color: rgb(22, 122, 198);
+    float: right; 
+   }
