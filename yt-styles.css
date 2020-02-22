@@ -3,28 +3,30 @@ nav {
     border-left: 40px;
     padding:10px;
     display: list-item;
-    align-items: baseline;
-
+    align-self: baseline;
 }
 
 .logo {
     width: 100px;
     height: 45px;
     float:left;
+    padding: 5px;
 }
 
 .searchinput{
     width: 560px;
-    padding: 5px;
-    margin-left: 10px;
+    margin-left: 10%;
     float: left;
+    padding: 5px;
+    margin-top: 10px;
+    }
 
-}
 .searchButton{
     margin-left: 0px;
     width: 70px;
     padding: 5px;
     float: left;
+    margin-top:10px;
   
 }
 
