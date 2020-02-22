@@ -3,6 +3,8 @@ nav {
     border-left: 40px;
     padding:10px;
     display: list-item;
+    align-items: baseline;
+
 }
 
 .logo {
