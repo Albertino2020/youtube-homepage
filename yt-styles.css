@@ -1,5 +1,5 @@
 
-nav {
+.nav1 {
     border-left: 40px;
     padding:10px;
     display: list-item;
@@ -12,6 +12,13 @@ nav {
     height: 45px;
     float:left;
     padding: 5px;
+}
+
+.langIcon {
+    width: 100px;
+    height: 45px;
+    float:left;
+    padding: 0px;
 }
 
 .searchinput{
@@ -28,11 +35,10 @@ nav {
     padding: 5px;
     float: left;
     margin-top:5px;
-  
 }
 
 .signin {
-    background-color: blue;
+    background-color: rgb(22, 122, 198);
     color: #EEEEEE;
     padding: 5px;
     border: none;
@@ -45,7 +51,7 @@ nav {
 
     .rightIcons{
     padding-right: 10px;
-    background-color: blue;
+    background-color: rgb(22, 122, 198);
     color: #EEEEEE;
     padding: 5px;
     border: none;
@@ -57,19 +63,38 @@ nav {
     align-items: baseline;
     float: right;
     margin-right: 0px;
-    padding-right: 0px;
-    
-
+    padding-right: 0px;  
 }
 
 .nav2{
-    background-color: blue;
+    background-color: rgb(22, 122, 198);
     color: #EEEEEE;
-    align-items: baseline;
-    padding: 1px;
     margin-top: 40px;
+    margin-left: 0px;
+    display: list-item;
+    height: 45px;
+    border-left: 40px;
+    padding:10px;
+    align-self: baseline;
+    padding-right:0px;
+}
+.langText
+{   font-size:100%;
+    background-color: transparent;
+    border-width: 0px; 
+    border-style: none; 
+    margin: 10px;
+    margin-left:120px; 
+    padding: 0px;
+    border-color: white; 
 }
 
-div{
-    display:table-row;
+.nav3{
+ border-width: medium;
+ color; white;
+ width: 100%;
+ font-size: 12pt;
+ text-align: justify;
+ background-color: transparent;
+ border-color: rgb(22, 122, 198);
 }
