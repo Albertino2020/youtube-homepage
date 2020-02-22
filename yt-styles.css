@@ -102,12 +102,12 @@
 .videobar{
     border-width: medium;
     color: black;
-    width: 40%;
+    width: 50%;
     font-size: 12pt;
     text-align: justify;
-    background-color: black;
-    border-color: rgb(22, 122, 198);
+    background-color: transparent;
     float: left;
+    padding:40px;
    }
 
    .sidebar{
@@ -116,7 +116,16 @@
     width: 30%;
     font-size: 12pt;
     text-align: justify;
-    background-color: green;
-    border-color: rgb(22, 122, 198);
+    background-color: transparent;
     float: right; 
+    padding-top: 40px;
+    padding-right: 40px;
+    margin-left:0px;
+    padding-left: 0px;
+   }
+   sideIcon{
+       max-width: 100px;
+       max-height: 45px;
+       padding:0px;
+       margin-left:opx;
    }
