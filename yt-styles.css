@@ -4,6 +4,7 @@ nav {
     padding:10px;
     display: list-item;
     align-self: baseline;
+    padding-right:0px;
 }
 
 .logo {
@@ -18,7 +19,7 @@ nav {
     margin-left: 10%;
     float: left;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
     }
 
 .searchButton{
@@ -26,33 +27,38 @@ nav {
     width: 70px;
     padding: 5px;
     float: left;
-    margin-top:10px;
+    margin-top:5px;
   
 }
 
 .signin {
-    margin-right: 10px;
     background-color: blue;
     color: #EEEEEE;
     padding: 5px;
     border: none;
     width: 70px;
-    float: inline-end;
-    border-radius: 3px;        
+    float: right;
+    border-radius: 3px;
+    margin-right: 0px;
+    padding-right: 0px;        
     }
 
     .rightIcons{
-    margin-right: 10px;
+    padding-right: 10px;
     background-color: blue;
     color: #EEEEEE;
     padding: 5px;
     border: none;
     width: 70px;
-    float:inline-start;
+    margin-right: 10px;
+    
 }
 .rightnav{
     align-items: baseline;
     float: right;
+    margin-right: 0px;
+    padding-right: 0px;
+    
 
 }
 
