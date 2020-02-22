@@ -102,7 +102,7 @@
 .videobar{
     border-width: medium;
     color: black;
-    width: 100%;
+    width: 40%;
     font-size: 12pt;
     text-align: justify;
     background-color: black;
@@ -113,7 +113,7 @@
    .sidebar{
     border-width: medium;
     color: green;
-    width: 100%;
+    width: 30%;
     font-size: 12pt;
     text-align: justify;
     background-color: green;
