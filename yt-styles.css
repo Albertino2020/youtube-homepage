@@ -84,14 +84,14 @@
     border-width: 0px; 
     border-style: none; 
     margin: 10px;
-    margin-left:120px; 
+    margin-left:120px;
     padding: 0px;
     border-color: white; 
 }
 
 .nav3{
  border-width: medium;
- color; white;
+ color: black;
  width: 100%;
  font-size: 12pt;
  text-align: justify;
