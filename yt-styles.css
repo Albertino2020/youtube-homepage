@@ -122,10 +122,28 @@
     padding-right: 40px;
     margin-left:0px;
     padding-left: 0px;
+    display: block;
    }
-   sideIcon{
-       max-width: 100px;
-       max-height: 45px;
+   .sideIcon{
+       width: 250px;
+       height: 100px;
        padding:0px;
-       margin-left:opx;
+       margin-left:0px;
+   }
+   .ddAlign{
+    align-items: center;
+    float:left;
+    padding:0px; 
+   }
+
+   dd{
+       padding-left: 0px;
+   }
+
+   .btPadd{
+       padding:0px;
+       margin-left:10px;
+       margin-top:0px;
+       margin-bottom: 0px;
+       text-Indent:10px;
    }
