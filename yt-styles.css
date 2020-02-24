@@ -1,6 +1,6 @@
 
 .nav1 {
-    border-left: 40px;
+    border-left: 0px;
     padding:10px;
     display: list-item;
     align-self: baseline;
@@ -11,7 +11,7 @@
     width: 100px;
     height: 45px;
     float:left;
-    padding: 5px;
+    padding: 0px;
 }
 
 .langIcon {
@@ -43,19 +43,20 @@
     padding: 5px;
     border: none;
     width: 70px;
+    height:45px;
     float: right;
     border-radius: 3px;
     margin-right: 0px;
-    padding-right: 0px;        
+    margin-left: 10px;       
     }
 
     .rightIcons{
     padding-right: 10px;
-    background-color: rgb(22, 122, 198);
     color: #EEEEEE;
-    padding: 5px;
+    padding: 0px;
     border: none;
-    width: 70px;
+    width: 45px;
+    height: 45px;
     margin-right: 10px;
     
 }
@@ -63,7 +64,8 @@
     align-items: baseline;
     float: right;
     margin-right: 0px;
-    padding-right: 0px;  
+    padding-right: 0px;
+    padding-bottom: 10px; 
 }
 
 .nav2{
