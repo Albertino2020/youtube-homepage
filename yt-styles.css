@@ -151,6 +151,28 @@
 }
 
 .alignViews{
-    width:30%;
+    width:100%;
+    align-self: right;
+    float: right;
+}
+
+.nav{
+    margin-left:0px;
+    margin-bottom: 10px;
+    padding:0px;
+}
+.nav section {
+    display: inline-block;
+    margin-left:0px;
+    padding: 0px;
+    margin-bottom: 10Px;
+    overflow: hidden;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-right{
     float: right;
 }
