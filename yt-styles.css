@@ -138,7 +138,8 @@
        margin-bottom:0px;
    }
    .sideIcon1{
-    width: 200px;
+    display: inline-flex;
+    width: 300px;
     height: 50px;
     padding:0px;
     margin-left:0px;
@@ -224,3 +225,29 @@ input.autoplay{
     box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
   }
   .autoAlign{ align-content: center;}
+  .videoControls{
+    width:740px; height:400px;
+  }
+  .videoImg{
+    width:48px; height:48px;
+  }
+  .buttonImg{
+    width:150px; height:24px;
+  }
+body{
+    display: block;
+    position: relative;
+    height: 100%;
+    widows: 100%;
+}
+  .footer{
+  width:100%;
+  position: fixed;
+  padding: 40px;
+  margin-bottom: 0%;
+  margin-top: 40px;
+  }
+  .footerLogo{
+      width: 150px;
+      height: 45px;
+  }
