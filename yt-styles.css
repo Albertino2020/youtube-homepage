@@ -1,7 +1,7 @@
 
 .nav1 {
     border-left: 0px;
-    padding:10px;
+    padding:0px;
     display: list-item;
     align-self: baseline;
     padding-right:0px;
@@ -12,6 +12,7 @@
     height: 45px;
     float:left;
     padding: 0px;
+    margin-right: 10px;
 }
 
 .langIcon {
@@ -92,12 +93,15 @@
 }
 
 .nav3{
- border-width: medium;
+ display: list-item;
  color: black;
- width: 100%;
+ border-style: solid;
+ padding-top: 20px;
+ border: 1px;width: 100%;
+ height: 50px;
  font-size: 12pt;
  text-align: justify;
- background-color: transparent;
+ background-color: whitesmoke;
  border-color: rgb(22, 122, 198);
 }
 
@@ -109,7 +113,7 @@
     text-align: justify;
     background-color: transparent;
     float: left;
-    padding-top: 40px;
+    padding-top: 5px;
    }
 
    .sidebar{
@@ -120,7 +124,7 @@
     text-align: justify;
     background-color: transparent;
     float: right; 
-    padding-top: 40px;
+    padding-top: 5px;
     padding-right: 10px;
     margin-left:0px;
     padding-left: 0px;
@@ -157,8 +161,6 @@
        margin-bottom: 0px;
        text-Indent:10px;
    }
-
-}
 
 .alignViews{
     width:100%;
