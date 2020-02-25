@@ -135,7 +135,7 @@
        height: 100px;
        padding:0px;
        margin-left:0px;
-       margin-bottom:0px;
+       padding-bottom:0px;
    }
    .sideIcon1{
     display: inline-flex;
@@ -143,7 +143,7 @@
     height: 50px;
     padding:0px;
     margin-left:0px;
-    margin-bottom:0px;
+    padding-bottom:0px;
 }
    .ddAlign{
     align-items: center;
@@ -156,10 +156,9 @@
    }
 
    .btPadd{
-       padding:0px;
-       margin-left:10px;
-       margin-top:0px;
-       margin-bottom: 0px;
+       padding: 0px;
+       margin-top: 0px;
+       padding-left: 0px;
        text-Indent:10px;
    }
 
@@ -171,14 +170,13 @@
 
 .nav{
     margin-left:0px;
-    margin-bottom: 10px;
-    padding:0px;
+    padding-bottom: 10px;
 }
 .nav section {
     display: inline-block;
     margin-left:0px;
     padding: 0px;
-    margin-bottom: 10Px;
+    padding-bottom: 10Px;
     overflow: hidden;
 }
 
@@ -234,14 +232,10 @@ input.autoplay{
   .buttonImg{
     width:150px; height:24px;
   }
-body{
-    display: block;
-    position: fixed;
-    position: absolute;
-    height: 100%;
-    widows: 100%;
+
+footer{
+position: fixed;
+width: 100%;
+margin-bottom: 0px;
+margin-left:0px;
 }
-  .footerLogo{
-      width: 150px;
-      height: 45px;
-  }
