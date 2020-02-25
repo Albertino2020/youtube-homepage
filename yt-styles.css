@@ -236,17 +236,11 @@ input.autoplay{
   }
 body{
     display: block;
-    position: relative;
+    position: fixed;
+    position: absolute;
     height: 100%;
     widows: 100%;
 }
-  .footer{
-  width:100%;
-  position: fixed;
-  padding: 40px;
-  margin-bottom: 0%;
-  margin-top: 40px;
-  }
   .footerLogo{
       width: 150px;
       height: 45px;
