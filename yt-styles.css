@@ -4,7 +4,7 @@
     padding:0px;
     display: list-item;
     align-self: baseline;
-    padding-right:0px;
+    margin-right:10px;
 }
 
 .logo {
@@ -70,7 +70,7 @@
 }
 
 .nav2{
-    background-color: rgb(22, 122, 198);
+    background-color: red;
     color: #EEEEEE;
     margin-top: 40px;
     margin-left: 0px;
@@ -79,7 +79,7 @@
     border-left: 40px;
     padding:10px;
     align-self: baseline;
-    padding-right:0px;
+    margin-right:10px;
 }
 .langText
 {   font-size:100%;
@@ -103,6 +103,7 @@
  text-align: justify;
  background-color: whitesmoke;
  border-color: rgb(22, 122, 198);
+ margin-right: 10px;
 }
 
 .videobar{
@@ -113,7 +114,7 @@
     text-align: justify;
     background-color: transparent;
     float: left;
-    padding-top: 5px;
+    padding-top: 0px;
    }
 
    .sidebar{
@@ -124,11 +125,12 @@
     text-align: justify;
     background-color: transparent;
     float: right; 
-    padding-top: 5px;
+    padding-top: 0px;
     padding-right: 10px;
     margin-left:0px;
     padding-left: 0px;
     display: block;
+    margin-right: 10px;
    }
    .sideIcon{
        width: 200px;
@@ -160,6 +162,7 @@
        margin-top: 0px;
        padding-left: 0px;
        text-Indent:10px;
+       padding-bottom: 0px;
    }
 
 .alignViews{
@@ -171,12 +174,13 @@
 .nav{
     margin-left:0px;
     padding-bottom: 10px;
+    margin-right:10px;
 }
 .nav section {
     display: inline-block;
     margin-left:0px;
     padding: 0px;
-    padding-bottom: 10Px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
@@ -186,6 +190,8 @@
 
 .nav-right{
     float: right;
+    margin-right: 10px;
+    padding-right: 10px;
 }
 
 
@@ -250,9 +256,11 @@ padding-bottom: 10rem;
 }
 
 .footer{
+background-color: red;
+color:whitesmoke;
 position: fixed;
 bottom: 0;
 width: 100%;
-height: 5rem;            /* Footer height */
-padding-top: 20px;
+height: 2.5rem;
+margin-right:10px;            /* Footer height */
 }
