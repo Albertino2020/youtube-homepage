@@ -132,18 +132,10 @@
        width: 30px;
        height:30px;
        border:0;
-       margin-left:0;
-       float: left;
-       margin-left: 40px;
-   }
-   .videoImg1{
-    width: 30px;
-    height:30px;
-    border:0;
-    margin-left:0;
-    float: left;
-}
+       padding-left: 20px;
+       padding-right: 20px;
 
+   }
    .chanImg{
     width: 45px;
     height:45px;
@@ -152,14 +144,11 @@
 }
 
    .videoShare{
-    width: 40px;
+    width: 70px;
     height:30px;
     border:0px;
     vertical-align: bottom;
     background-color: whitesmoke;
-    float:left;
-    padding-left: 20px;
-    padding-right:20px;
 }
  .shareText{
      text-align: right;
@@ -220,16 +209,16 @@
        background-color:red;
        height:25px;
        width:100px;
+       border:none;
    }
    .btPadd1{
     padding: 0px;
     margin-top: 0px;
     padding-bottom: 0px;
     color: black;
-    background-color:white;
+    background-color:whitesmoke;
     height: 25px;
-    border-radius: 10%;
-    border-color:white;
+    border:none,
 }
 
 
