@@ -2,7 +2,7 @@
 
 > Youtube-homepage Clone
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/myTube.png)
 
  This is my first collaborative project, from the Microverse Main Curriculum,. This project consists of building an HTML document that matches the appearance of Youtube video player page.
 
