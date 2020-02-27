@@ -14,12 +14,21 @@
     padding: 0px;
     margin-right: 10px;
 }
+.logo1 {
+    float: left;
+    padding-top: 15px;
+    padding-bottom:5px;
+    margin-right: 0px;
+    padding-right: 10px;
+}
 
 .langIcon {
-    width: 100px;
+    width: 45px;
     height: 45px;
     float:left;
     padding: 0px;
+    border: none;
+    border-radius: 50%;
 }
 
 .searchinput{
@@ -39,7 +48,7 @@
 }
 
 .signin {
-    background-color: rgb(22, 122, 198);
+    background-color: red;
     color: #EEEEEE;
     padding: 5px;
     border: none;
@@ -59,6 +68,7 @@
     width: 45px;
     height: 45px;
     margin-right: 10px;
+    border-radius: 50%;
     
 }
 .rightnav{
@@ -90,6 +100,7 @@
     margin-left:120px;
     padding: 0px;
     border-color: white; 
+    text-align: left;
 }
 
 .nav3{
@@ -116,6 +127,32 @@
     float: left;
     padding-top: 0px;
    }
+   
+   .videoImg{
+       width: 30px;
+       height:30px;
+       border:0;
+       padding-left: 20px;
+       padding-right: 20px;
+
+   }
+   .chanImg{
+    width: 45px;
+    height:45px;
+    border:0;
+    padding-bottom:5px;
+}
+
+   .videoShare{
+    width: 70px;
+    height:30px;
+    border:0px;
+    vertical-align: bottom;
+    background-color: whitesmoke;
+}
+ .shareText{
+     text-align: right;
+ }
 
    .sidebar{
     border-width: medium;
@@ -157,13 +194,33 @@
        padding-left: 0px;
    }
 
+   .btPadd0{
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    color:black;
+    background-color:white;
+}
    .btPadd{
        padding: 0px;
        margin-top: 0px;
-       padding-left: 0px;
-       text-Indent:10px;
        padding-bottom: 0px;
+       color: white;
+       background-color:red;
+       height:25px;
+       width:100px;
+       border:none;
    }
+   .btPadd1{
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    background-color:whitesmoke;
+    height: 25px;
+    border:none,
+}
+
 
 .alignViews{
     width:100%;
@@ -175,6 +232,8 @@
     margin-left:0px;
     padding-bottom: 10px;
     margin-right:10px;
+    display: block;
+    display:baseline;
 }
 .nav section {
     display: inline-block;
@@ -186,6 +245,8 @@
 
 .nav-left{
     float: left;
+    display: block;
+    align-items: baseline;
 }
 
 .nav-right{
@@ -232,9 +293,7 @@ input.autoplay{
   .videoControls{
     width:740px; height:400px;
   }
-  .videoImg{
-    width:48px; height:48px;
-  }
+
   .buttonImg{
     width:150px; height:24px;
   }
