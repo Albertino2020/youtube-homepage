@@ -1,20 +1,20 @@
 # Project Name
 
-> One paragraph statement about the project.
+> Youtube-homepage Clone
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+ This is my first collaborative project, from the Microverse Main Curriculum,. This project consists of building an HTML document that matches the appearance of Youtube video player page.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS
+- Visual Studo Code, Linters, Git, Github
+- Ubuntu Operating System, Terminal, Internet
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://github.com/Albertino2020/Youtube-homepage/tree/working-branch)
 
 
 ## Getting Started
@@ -25,33 +25,18 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
 ### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 Albertino Francisco
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,7 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+-
 - Inspiration
 - etc
 
