@@ -10,7 +10,6 @@
 
 - HTML, CSS
 - Visual Studo Code, Linters, Git, Github
-- Ubuntu Operating System, Terminal, Internet
 
 ## Live Demo
 
