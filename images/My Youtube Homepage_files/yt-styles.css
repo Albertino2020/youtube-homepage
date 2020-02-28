@@ -1,0 +1,325 @@
+
+.nav1 {
+    border-left: 0px;
+    padding:0px;
+    display: list-item;
+    align-self: baseline;
+    margin-right:10px;
+}
+
+.logo {
+    width: 100px;
+    height: 45px;
+    float:left;
+    padding: 0px;
+    margin-right: 10px;
+}
+.logo1 {
+    float: left;
+    padding-top: 15px;
+    padding-bottom:5px;
+    margin-right: 0px;
+    padding-right: 10px;
+}
+
+.langIcon {
+    width: 45px;
+    height: 45px;
+    float:left;
+    padding: 0px;
+    border: none;
+    border-radius: 50%;
+}
+
+.searchinput{
+    width: 600px;
+    margin-left: 5%;
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    }
+
+.searchButton{
+    margin-left: 0px;
+    width: 70px;
+    padding: 5px;
+    float: left;
+    margin-top:5px;
+}
+
+.signin {
+    background-color: red;
+    color: #EEEEEE;
+    padding: 5px;
+    border: none;
+    width: 70px;
+    height:45px;
+    float: right;
+    border-radius: 3px;
+    margin-right: 0px;
+    margin-left: 10px;       
+    }
+
+    .rightIcons{
+    margin-left: 10px;
+    padding-right: 10px;
+    padding: 0px;
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+}
+.rightnav{
+    align-items: baseline;
+    float: right;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px; 
+}
+
+.nav2{
+    background-color: red;
+    color: #EEEEEE;
+    margin-top: 40px;
+    margin-left: 0px;
+    display: list-item;
+    height: 45px;
+    border-left: 40px;
+    padding:10px;
+    align-self: baseline;
+    margin-right:10px;
+}
+.langText
+{   font-size:100%;
+    background-color: transparent;
+    border-width: 0px; 
+    border-style: none; 
+    margin: 10px;
+    margin-left:120px;
+    padding: 0px;
+    border-color: white; 
+    text-align: left;
+}
+
+.nav3{
+ display: list-item;
+ color: black;
+ border-style: solid;
+ padding-top: 20px;
+ border: 1px;width: 100%;
+ height: 50px;
+ font-size: 12pt;
+ text-align: justify;
+ background-color: whitesmoke;
+ border-color: rgb(22, 122, 198);
+ margin-right: 10px;
+}
+
+.videobar{
+    border-width: medium;
+    color: black;
+    width: 55%;
+    font-size: 12pt;
+    text-align: justify;
+    background-color: transparent;
+    float: left;
+    padding-top: 0px;
+   }
+   
+   .videoImg{
+       width: 30px;
+       height:30px;
+       border:0;
+       padding-left: 20px;
+       padding-right: 20px;
+
+   }
+   .chanImg{
+    width: 45px;
+    height:45px;
+    border:0;
+    padding-bottom:5px;
+}
+
+   .videoShare{
+    width: 70px;
+    height:30px;
+    border:0px;
+    vertical-align: bottom;
+    background-color: whitesmoke;
+}
+ .shareText{
+     text-align: right;
+ }
+
+   .sidebar{
+    border-width: medium;
+    color: green;
+    width: 35%;
+    font-size: 12pt;
+    text-align: justify;
+    background-color: transparent;
+    float: right; 
+    padding-top: 0px;
+    padding-right: 10px;
+    margin-left:0px;
+    padding-left: 0px;
+    display: block;
+    margin-right: 10px;
+   }
+   .sideIcon{
+       width: 200px;
+       height: 100px;
+       padding:0px;
+       margin-left:0px;
+       padding-bottom:0px;
+   }
+   .sideIcon1{
+    display: inline-flex;
+    width: 300px;
+    height: 50px;
+    padding:0px;
+    margin-left:0px;
+    padding-bottom:0px;
+}
+   .ddAlign{
+    align-items: center;
+    float:left;
+    padding:0px; 
+   }
+
+   dd{
+       padding-left: 0px;
+   }
+
+   .btPadd0{
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    color:black;
+    background-color:white;
+}
+   .btPadd{
+       padding: 0px;
+       margin-top: 0px;
+       padding-bottom: 0px;
+       color: white;
+       background-color:red;
+       height:25px;
+       width:100px;
+       border:none;
+   }
+   .btPadd1{
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    background-color:whitesmoke;
+    height: 25px;
+    border:none,
+}
+
+
+.alignViews{
+    width:100%;
+    align-self: right;
+    float: right;
+}
+
+.nav{
+    margin-left:0px;
+    padding-bottom: 10px;
+    margin-right:10px;
+    display: block;
+    display:baseline;
+}
+.nav section {
+    display: inline-block;
+    margin-left:0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.nav-left{
+    float: left;
+    display: block;
+    align-items: baseline;
+}
+
+.nav-right{
+    float: right;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+
+input.autoplay{
+    position: relative;
+    -webkit-appearance: none;
+    outline: none;
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #D9DADC;
+    border-radius: 50px;
+    box-shadow: inset -20px 0 0 0 #fff;
+  }
+  
+  input.autoplay:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background: transparent;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  input.autoplay:checked {
+    box-shadow: inset 20px 0 0 0 #4ed164;
+    border-color: #4ed164;
+  }
+  
+  input.autoplay:checked:after {
+    left: 20px;
+    box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+  }
+  .autoAlign{ align-content: center;}
+  .videoControls{
+    width:740px; height:400px;
+  }
+
+  .buttonImg{
+    width:150px; height:24px;
+  }
+
+  html, body{
+    position: relative;
+    width: 100%;
+    height: 300%;
+    
+  }
+
+.page-container{
+position: relative;
+min-height: auto;
+}
+
+.content-wrap {
+padding-bottom: 10rem;
+}
+
+.footer{
+background-color: red;
+color:whitesmoke;
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 2.5rem;
+margin-right:10px;            /* Footer height */
+}
