@@ -13,7 +13,7 @@
     width: 15%;
     align-items: baseline;
     float: left;
-    margin-right:auto;
+    margin-right:45px;
 }
 
 .navcenter {
@@ -27,7 +27,7 @@
 .navright{
     width: 25%;
     float:right;
-    margin-left:90px;
+    margin-left:45px;
     margin-right:0px;
 }
 
