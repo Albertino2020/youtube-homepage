@@ -1,25 +1,50 @@
 
 .nav1 {
+    width: 100%;
     border-left: 0px;
     padding:0px;
-    display: list-item;
-    align-self: baseline;
-    margin-right:10px;
+    display: inline-flex;
+    align-items: flex-start;
+    margin-bottom: 10px; 
+    position: relative;
 }
+
+.navleft {
+    width: 15%;
+    align-items: baseline;
+    float: left;
+    margin-right:auto;
+}
+
+.navcenter {
+    align-self:center;
+    float: inherit;;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.navright{
+    width: 25%;
+    float:right;
+    margin-left:90px;
+    margin-right:0px;
+}
+
 
 .logo {
     width: 100px;
     height: 45px;
     float:left;
     padding: 0px;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 .logo1 {
     float: left;
     padding-top: 15px;
     padding-bottom:5px;
     margin-right: 0px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .langIcon {
@@ -32,52 +57,42 @@
 }
 
 .searchinput{
-    width: 600px;
-    margin-left: 5%;
-    float: left;
+    width: 85%;
+    align-self: center;
+    float: none;
     padding: 5px;
     margin-top: 5px;
     }
 
 .searchButton{
     margin-left: 0px;
-    width: 70px;
+    width: 10%;
     padding: 5px;
-    float: left;
+    float: inline-end;
     margin-top:5px;
 }
 
 .signin {
     background-color: red;
     color: #EEEEEE;
-    padding: 5px;
-    border: none;
-    width: 70px;
-    height:45px;
-    float: right;
+    width: 30%;
+    height:50px;
+    float: inline-end;
     border-radius: 3px;
     margin-right: 0px;
-    margin-left: 10px;       
+    padding: 5px;
+    border-right: 0px;      
     }
 
     .rightIcons{
-    margin-left: 10px;
-    padding-right: 10px;
-    padding: 0px;
-    border: none;
-    width: 45px;
-    height: 45px;
-    margin-right: 10px;
+    float: auto;
+    border: 0;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    
-}
-.rightnav{
-    align-items: baseline;
-    float: right;
-    margin-right: 0px;
-    padding-right: 0px;
-    padding-bottom: 10px; 
-}
+    margin-right: 10px;
+    margin-left:10px;
+    }
 
 .nav2{
     background-color: red;
@@ -88,9 +103,8 @@
     height: 45px;
     border-left: 40px;
     padding:10px;
-    align-self: baseline;
-    margin-right:10px;
-}
+    align-self: baseline;}
+
 .langText
 {   font-size:100%;
     background-color: transparent;
@@ -104,17 +118,17 @@
 }
 
 .nav3{
- display: list-item;
+ display:inline-flexbox;
  color: black;
  border-style: solid;
  padding-top: 20px;
- border: 1px;width: 100%;
+ border: 1px;
+ width: 100%;
  height: 50px;
  font-size: 12pt;
  text-align: justify;
  background-color: whitesmoke;
  border-color: rgb(22, 122, 198);
- margin-right: 10px;
 }
 
 .videobar{
@@ -240,7 +254,7 @@
 }
 
 .nav{
-    margin-left:0px;
+    margin-left:4px;
     padding-bottom: 10px;
     margin-right:10px;
     display: block;
@@ -319,6 +333,8 @@ input.autoplay{
 .page-container{
 position: relative;
 min-height: auto;
+width: 100%;
+
 }
 
 .content-wrap {
@@ -330,7 +346,7 @@ background-color: red;
 color:whitesmoke;
 position: fixed;
 bottom: 0;
-width: 100%;
-height: 2.5rem;
-margin-right:10px;            /* Footer height */
+height:50px; 
+width:100%;           /* Footer height */
+float: left;
 }
